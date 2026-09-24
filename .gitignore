@@ -1,0 +1,10 @@
+# build artifacts
+*.o
+*.d
+*.a
+*.so
+*.bin
+*.exe
+*.rlib
+Cargo.lock
+target
