@@ -3,4 +3,19 @@ name = "product-1"
 version = "0.1.0"
 edition = "2024"
 
+# feature within a product remain additive
+[features]
+default = []
+a = ["module-1/a", "module-a/x"]
+b = ["module-1/b"]
+c = ["module-1/c"]
+
 [dependencies]
+module-1 = {
+    path = "module-1"
+}
+
+module-a = {
+    path = "../crates/module-a",
+    optional = true
+}

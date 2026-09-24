@@ -7,8 +7,10 @@ members = [
     "crates/module-b",
     "crates/service-a",
     "crates/service-b",
+    "product-1",
     "product-1/module-1",
     "product-1/service-1",
+    "product-2",
     "product-2/module-2",
     "product-2/service-2",
 ]
